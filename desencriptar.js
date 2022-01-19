@@ -1,3 +1,16 @@
+/* 
+Este programa trae la funcionalidad que realiza la desencriptación del mensaje.
+
+Para la desencriptación segui un procedimiento parecido el encriptador solo que como no habrá números ni caracteres
+especiales no fue necesario tener en cuenta ello. 
+
+Además para recorrer el array se uso un while en lugar de un for para pode controlar el salto en los indices cuando se
+topa con una vocal que se debe desencriptar.
+
+Después se concatena con la función join el array en una nueva string y se exhibe el texto encriptado en la casilla
+input.
+*/
+
 var botonDesencriptar = document.querySelector('#btn-desencriptar');
 
 botonDesencriptar.addEventListener('click', function (event) {
