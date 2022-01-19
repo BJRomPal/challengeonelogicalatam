@@ -1,3 +1,9 @@
+/* 
+Este archivo programa la función del botón de copiar. Basicamente toma el texto encriptado y lo copia
+en memoria avisándole al usuario mediante un alert que el texto ha sido copiado.
+Despues del alert el texto que estaba en el input es borrado
+*/
+
 var botonCopiar = document.querySelector('#btn-copy');
 
 botonCopiar.addEventListener('click', function (event) {
