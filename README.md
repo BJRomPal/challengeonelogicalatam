@@ -9,3 +9,7 @@ Me hubiera gustado poder hacer cuatro box para cada parte:
 * Mostrar texto desencriptado
 
 Lamentablemente mis conocimientos de HTML y CSS son mas bien básico y la página me quedaba francamente horrible. Asi que use directamente el modelo proporcionado por Alura.
+
+## Mensaje Secreto
+
+El mensaje secreto es: felicidades por enfrentar este desafio y haberlo concluido con exito!
