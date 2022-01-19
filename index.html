@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="titulo">CÓDIGO SECRETO</h1>
+  <h2 class="subtitulo">Reglas</h2>
+
+  <ol class="reglas">
+    <li>Solo permite la encriptacion de letras</li>
+    <li>En caso de ingresar números o caracteres especiales estos serán borrados</li>
+    <li>Las palabras se encriptarán en minúscula y se eliminarán los tildes cuando haya alguno</li>
+  </ol>
+
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <label for="input-texto">Ingrese mensaje a encriptar/desencriptar</label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto">
+        <input class="btn" type="submit" value="encriptar!" id="btn-encriptar">
+        <input class="btn" type="submit" value="desencriptar!" id="btn-desencriptar">
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <p id="">Mensaje encriptado:</p>
+      <input class="text-input" type="text" id="msg"></input>
+      <input class="btn" type="submit" value="copiar" id="btn-copy">
+    </section>
+  </main>
+
+  <br>
+  <h2>El mensaje secreto de Alura es</h2>
+  <p>felicidades por enfrentar este desafio y haberlo concluido con exito!</p>
+
+  <script src="encriptar.js"></script>
+  <script src="copiar.js"></script>
+  <script src="desencriptar.js"></script>
+</body>
+</html>
